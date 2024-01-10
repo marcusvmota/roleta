@@ -40,5 +40,5 @@ function calcularRodadas() {
   // Exibir resultado
   var resultadoElement = document.getElementById("resultado")
   resultadoElement.textContent =
-    "Você pode realizar " + rodadas + " rodadas."
+    "Com seu saldo você aguenta " + rodadas + " roladas."
 }
