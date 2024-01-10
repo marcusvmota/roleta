@@ -102,10 +102,14 @@ select {
   outline: none;
   padding: 5px 15px;
   background: linear-gradient(315deg, #031a04, #12b00c);
-  color: #fff;
+  color: #ffffff;
   font-size: 18px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+option {
+  color: #000000;
 }
 
 button {
