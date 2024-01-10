@@ -21,13 +21,13 @@ function calcularRodadas() {
   }
 
   // Validar aposta mínima para multiplicadores específicos
-  if (
-    (multiplicador === 1.08 || multiplicador === 1.1) &&
-    valorAposta < 12
-  ) {
-    alert("Para multiplicadores de 1.08x ou 1.1x, a aposta mínima é 12.")
-    return
-  }
+  // if (
+  //   (multiplicador === 1.08 || multiplicador === 1.1) &&
+  //   valorAposta < 12
+  // ) {
+  //   alert("Para multiplicadores de 1.08x ou 1.1x, a aposta mínima é 12.")
+  //   return
+  // }
 
   // Calcular rodadas
   var rodadas = 0
